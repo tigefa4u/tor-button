@@ -11,6 +11,6 @@ addons:
 
 before_install:
   - brew update # see note below
-  - brew install node
+  - brew upgrade node
   - brew install mozilla-addon-sdk
   - npm i -g jpm
